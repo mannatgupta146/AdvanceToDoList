@@ -43,12 +43,13 @@ A simple and intuitive Todo application built with React, allowing users to crea
 To set up the project locally, follow these steps:
 
 1. **Clone the repository**:
-  
-   ```git clone https://github.com/your-username/AdvancedToDoList.git```
+   ```git clone https://github.com/mannatgupta146/AdvanceToDoList.git```
+
+2. **Open File**
    ```cd AdvancedToDoList```
-2. **Install Dependencies**
+4. **Install Dependencies**
 ``` npm install```
-3. **Run the Application**
+5. **Run the Application**
 ``` npm run dev ```
 
 ## Screenshots

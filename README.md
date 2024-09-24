@@ -54,7 +54,7 @@ To set up the project locally, follow these steps:
 
 ## Screenshots
 Demo of this ToDoList,how it will work!
-![Todo Application Screenshot](![alt text](image-1.png))
+(image-1.png)
 
 
 ### Directory Structure

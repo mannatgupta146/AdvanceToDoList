@@ -54,8 +54,7 @@ To set up the project locally, follow these steps:
 
 ## Screenshots
 Here is a demonstration of how the AdvancedToDoList application works:
-
-![Todo Application Screenshot](images/image-1.png)
+![Todo Application Screenshot](![alt text](image-1.png))
 
 
 ### Directory Structure

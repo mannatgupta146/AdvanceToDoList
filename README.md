@@ -53,8 +53,9 @@ To set up the project locally, follow these steps:
 ``` npm run dev ```
 
 ## Screenshots
-Demo of this ToDoList,how it will work!
-(image-1.png)
+Here is a demonstration of how the AdvancedToDoList application works:
+
+![Todo Application Screenshot](images/image-1.png)
 
 
 ### Directory Structure

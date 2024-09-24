@@ -1,0 +1,194 @@
+/* General styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px; /* Further reduced max width */
+  margin: 40px auto;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #444;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+/* Todo List */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-item {
+  display: flex;
+  justify-content: flex-start; /* Align items to the start */
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 10px; 
+  margin: 8px 0; 
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.list-item:hover {
+  background-color: #eaeaea;
+}
+
+.list-item-label {
+  display: flex;
+  align-items: center;
+  flex: 1; /* Allow item name to take remaining space */
+}
+
+.list-item-label input[type="checkbox"] {
+  margin-right: 10px; 
+}
+
+[data-list-item-text] {
+  font-size: 16px; 
+  color: #333;
+  flex: 1; 
+}
+
+/* Buttons */
+button {
+  border: none;
+  padding: 8px 10px; 
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+  font-size: 14px;
+}
+
+button[data-button-edit],
+button[data-button-delete] {
+  margin-left: 5px; 
+}
+
+button[data-button-edit] {
+  background-color: #ff9800;
+  color: white;
+}
+
+button[data-button-delete] {
+  background-color: #f44336;
+  color: white;
+}
+
+button[data-button-edit]:hover {
+  background-color: #e68900;
+}
+
+button[data-button-delete]:hover {
+  background-color: #d7322b;
+}
+
+button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 10px; 
+}
+
+button[type="submit"]:hover {
+  background-color: #43a047;
+}
+
+/* Input Fields */
+input[type="text"] {
+  padding: 10px;
+}
+
+/* Add Todo Form Styling */
+form#new-todo-form {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+form#new-todo-form input {
+  width: 60%; /* Adjusted input width for a better fit */
+  margin-right: 10px; 
+}
+
+/* Filter Form */
+.filter-form {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filter-form-group {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px; 
+}
+
+.filter-form-group input[type="text"] {
+  width: 100px; /* Shortened input width */
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.filter-form label {
+  font-size: 16px;
+}
+
+.filter-form input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+/* Center Output Bar */
+.list-item {
+  text-align: left; /* Align text to the left */
+}
+
+/* Edit and Delete Buttons */
+.list-item button[data-button-edit],
+.list-item button[data-button-delete] {
+  margin: 0; /* Remove left margin */
+}
+
+.list-item button {
+  margin-left: 5px; /* Closer spacing between buttons */
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .container {
+    padding: 15px;
+  }
+
+  .filter-form {
+    flex-direction: column;
+  }
+
+  .filter-form-group input[type="text"] {
+    width: 100%;
+  }
+
+  .list-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  button {
+    margin-top: 10px;
+    width: 100%;
+  }
+}
